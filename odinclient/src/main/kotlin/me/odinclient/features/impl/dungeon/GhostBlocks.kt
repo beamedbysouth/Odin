@@ -202,4 +202,13 @@ object GhostBlocks : Module(
             BlockPos(54, 63, 74)
         )
     )
+
+    private val rail = mapOf(
+        3 to arrayOf(
+            BlockPos(70, 106, 135),
+            BlockPos(69, 106, 135),
+            BlockPos(70, 106, 136),
+            BlockPos(69, 106, 136)
+        )
+    )
 }
